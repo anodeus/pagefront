@@ -39,7 +39,7 @@ header{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     color:#99826d/*b66026*/;
-    font-size: 28px;
+    font-size: 58px;
     padding: 12px 24px;
     border: 2px;
    border: solid;
@@ -57,7 +57,7 @@ header{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     color: #99826d;
-    font-size: 23px;
+    font-size: 53px;
     cursor: pointer;
  
     
