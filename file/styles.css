@@ -1,0 +1,86 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  background-color:black;
+  
+  
+}
+/*img{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-image:linear-gradient(rgba(0,0,0,.3),rgb(0,0,0,.7)),url(resources/images/war.jpg);
+}
+*/
+header{
+  background-image:linear-gradient(rgba(0,0,0,.3),rgb(0,0,0,.4)),url(images/anime.gif);
+  height: 100vh;
+  background-size: cover;
+  background-position:center;
+  position: relative;
+
+}
+.anime1 .btn:hover
+{
+  /*color: #bebcba;*/
+  color: #406882;
+}
+.anime1 .btn {
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color:#99826d/*b66026*/;
+    font-size: 28px;
+    padding: 12px 24px;
+    border: 2px;
+   border: solid;
+   cursor: pointer;
+   transition: color .5s;
+  
+}
+
+    
+  
+  .name{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: #99826d;
+    font-size: 23px;
+    cursor: pointer;
+ 
+    
+  }
+  
+
+.skull-icon-m
+{
+  color: #99826d;
+  transition: color .5s;
+}
+.github-icon-l
+{
+  color: #99826d;
+}
+
+.github-icon-l:hover
+{
+  color: #406882;
+  transition: color .5s;
+}
+.skull-icon-m:hover
+{
+  color: #406882;
+  transition: color .5s;
+}
